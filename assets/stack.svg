@@ -81,7 +81,7 @@
     <text x="0" y="26" class="main-heading">Technologies &amp; Engineering Stack</text>
   </g>
 
-  <!-- Left Side Categorized Stack Panel (Width x=35 to x=530) -->
+  <!-- Left Side Categorized Stack Panel -->
   <g transform="translate(35, 95)">
     <!-- Category 1: Languages & Core -->
     <g transform="translate(0, 0)">
@@ -153,28 +153,28 @@
     <g transform="translate(0, 168)">
       <text x="0" y="0" class="cat-label">DATABASES &amp; INFRASTRUCTURE TOOLS</text>
       <g transform="translate(0, 10)">
-        <rect x="0" y="0" width="80" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
-        <text x="40" y="17" class="tech-chip" text-anchor="middle">MongoDB</text>
+        <rect x="0" y="0" width="82" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+        <text x="41" y="17" class="tech-chip" text-anchor="middle">Supabase</text>
 
-        <rect x="86" y="0" width="62" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
-        <text x="117" y="17" class="tech-chip" text-anchor="middle">MySQL</text>
+        <rect x="88" y="0" width="88" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+        <text x="132" y="17" class="tech-chip" text-anchor="middle">PostgreSQL</text>
 
-        <rect x="154" y="0" width="52" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
-        <text x="180" y="17" class="tech-chip" text-anchor="middle">Hive</text>
+        <rect x="182" y="0" width="80" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+        <text x="222" y="17" class="tech-chip" text-anchor="middle">MongoDB</text>
 
-        <rect x="212" y="0" width="44" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
-        <text x="234" y="17" class="tech-chip" text-anchor="middle">Git</text>
+        <rect x="268" y="0" width="62" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+        <text x="299" y="17" class="tech-chip" text-anchor="middle">MySQL</text>
 
-        <rect x="262" y="0" width="98" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
-        <text x="311" y="17" class="tech-chip" text-anchor="middle">Cloudflare</text>
+        <rect x="336" y="0" width="44" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+        <text x="358" y="17" class="tech-chip" text-anchor="middle">Git</text>
 
-        <rect x="366" y="0" width="64" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
-        <text x="398" y="17" class="tech-chip" text-anchor="middle">Vercel</text>
+        <rect x="386" y="0" width="64" height="26" rx="6" fill="#0F192E" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+        <text x="418" y="17" class="tech-chip" text-anchor="middle">Vercel</text>
       </g>
     </g>
   </g>
 
-  <!-- Orbit Diagram (Centered at x=675) -->
+  <!-- Orbit Diagram -->
   <g transform="translate(675, 235)">
     <circle cx="0" cy="0" r="34" fill="#0D1527" stroke="#247BFF" stroke-width="2" filter="url(#chipGlow)" />
     <text x="0" y="4" class="cat-label" fill="#FFFFFF" text-anchor="middle" font-size="10.5px">AI + WEB</text>

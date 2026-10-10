@@ -125,11 +125,11 @@
       <text x="18" y="70" class="card-title">Systems &amp; Database</text>
       <text x="18" y="96" class="card-body">Designing RESTful APIs, OOP</text>
       <text x="18" y="114" class="card-body">modular architectures, and</text>
-      <text x="18" y="132" class="card-body">optimizing Firestore, MongoDB,</text>
-      <text x="18" y="150" class="card-body">&amp; MySQL query pipelines.</text>
+      <text x="18" y="132" class="card-body">optimizing Supabase, MongoDB,</text>
+      <text x="18" y="150" class="card-body">&amp; PostgreSQL query pipelines.</text>
 
-      <rect x="18" y="172" width="165" height="22" rx="6" fill="rgba(16, 185, 129, 0.1)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" />
-      <text x="24" y="187" class="pill-tag" fill="#10B981">REST • SQL • MongoDB</text>
+      <rect x="18" y="172" width="175" height="22" rx="6" fill="rgba(16, 185, 129, 0.1)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1" />
+      <text x="24" y="187" class="pill-tag" fill="#10B981">Supabase • Postgres • SQL</text>
     </g>
   </g>
 </svg>

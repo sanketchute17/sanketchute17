@@ -108,7 +108,7 @@
   <!-- Scanner Line -->
   <line x1="10" y1="15" x2="840" y2="15" stroke="#247BFF" stroke-width="2" opacity="0.4" class="scan-line" filter="url(#badgeGlow)" />
 
-  <!-- Clean Header -->
+  <!-- Header -->
   <g transform="translate(35, 32)">
     <text x="0" y="0" class="section-title">VERIFIED DEVELOPER CREDENTIALS</text>
     <text x="0" y="24" class="main-heading">Hanging Developer ID Badge Dossier</text>
@@ -116,22 +116,16 @@
 
   <!-- Left Side Hanging ID Badge -->
   <g class="hanging-card-group">
-    <!-- Lanyard Straps -->
     <path d="M 195 72 L 210 105 M 245 72 L 230 105" stroke="url(#lanyardRibbon)" stroke-width="12" stroke-linecap="round" opacity="0.85" />
-
-    <!-- Metallic Clasp -->
     <rect x="205" y="100" width="30" height="14" rx="4" fill="url(#metallicChrome)" stroke="#1E293B" stroke-width="1.5" />
     <circle cx="220" cy="107" r="4" fill="#070B16" />
 
-    <!-- ID Card Body -->
     <g transform="translate(35, 140)">
       <rect x="0" y="0" width="370" height="250" rx="14" fill="#0F192E" stroke="rgba(36, 123, 255, 0.35)" stroke-width="1.5" />
       <rect x="0" y="0" width="370" height="4" rx="2" fill="#247BFF" />
 
-      <!-- Punch Slot -->
       <rect x="165" y="-10" width="40" height="10" rx="5" fill="#070B16" stroke="url(#metallicChrome)" stroke-width="1.5" />
 
-      <!-- Smart Chip & Tech Emblem -->
       <g transform="translate(18, 20)">
         <rect x="0" y="0" width="40" height="30" rx="5" fill="url(#chipGold)" />
         <line x1="0" y1="15" x2="40" y2="15" stroke="#B45309" stroke-width="1" />
@@ -143,7 +137,6 @@
 
       <line x1="18" y1="68" x2="352" y2="68" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
 
-      <!-- Verified Facts -->
       <g transform="translate(18, 84)">
         <text x="0" y="0" class="field-label">SOFTWARE ENGINEERING FOCUS</text>
         <text x="0" y="18" class="field-val">AI/ML • Physics Neural Networks</text>
@@ -158,14 +151,13 @@
         <text x="0" y="144" class="field-val" font-size="10.5px">Expected 2027 • Nagpur, India</text>
       </g>
 
-      <!-- Barcode Footer -->
       <g transform="translate(18, 232)">
         <line x1="0" y1="0" x2="334" y2="0" stroke="#247BFF" stroke-width="3" stroke-dasharray="2,4,8,2,6,3,2,7,4,2,8,3,2" opacity="0.7" />
       </g>
     </g>
   </g>
 
-  <!-- Right Side Verified Academic Milestones Card -->
+  <!-- Right Side Academic Timeline -->
   <g transform="translate(425, 140)">
     <rect x="0" y="0" width="390" height="250" rx="14" fill="#0F192E" stroke="rgba(255, 53, 79, 0.35)" stroke-width="1.5" />
     <rect x="0" y="0" width="390" height="4" rx="2" fill="#FF354F" />
