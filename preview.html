@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanket Chute — Premium GitHub Profile Preview</title>
+  <style>
+    :root {
+      --bg-navy: #070b16;
+      --card-bg: #0d1527;
+      --blue-accent: #247bff;
+      --crimson-accent: #ff354f;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --border-color: rgba(36, 123, 255, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-navy);
+      color: var(--text-main);
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      line-height: 1.6;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 6px;
+    }
+
+    .status-pill {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 6px 16px;
+      background: rgba(36, 123, 255, 0.15);
+      border: 1px solid var(--blue-accent);
+      border-radius: 20px;
+      color: #00c6ff;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .svg-section {
+      width: 100%;
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 10px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .svg-section img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+    }
+
+    .projects-table-container {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 25px;
+      border: 1px solid var(--border-color);
+    }
+
+    .projects-table-container h2 {
+      font-size: 20px;
+      margin-bottom: 16px;
+      color: var(--blue-accent);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 13.5px;
+    }
+
+    th {
+      background: rgba(36, 123, 255, 0.1);
+      color: var(--text-main);
+      font-weight: 700;
+    }
+
+    td {
+      color: var(--text-muted);
+    }
+
+    td strong {
+      color: var(--text-main);
+    }
+
+    a {
+      color: var(--blue-accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Sanket Chute — GitHub Profile QA Preview</h1>
+      <p>Interactive QA rendering preview for all 5 animated SVG sections and project matrix</p>
+      <span class="status-pill">Status: 100% Validated &amp; Production-Ready</span>
+    </header>
+
+    <!-- 1. Hero SVG -->
+    <div class="svg-section">
+      <img src="./assets/hero.svg?v=1" alt="Introduction Section">
+    </div>
+
+    <!-- 2. About SVG -->
+    <div class="svg-section">
+      <img src="./assets/about-life.svg?v=1" alt="About Section">
+    </div>
+
+    <!-- 3. Tech Stack SVG -->
+    <div class="svg-section">
+      <img src="./assets/stack.svg?v=1" alt="Technology Stack Section">
+    </div>
+
+    <!-- 4. ID Dashboard SVG -->
+    <div class="svg-section">
+      <img src="./assets/id-dashboard.svg?v=1" alt="Developer ID Dashboard Section">
+    </div>
+
+    <!-- 5. Connect SVG -->
+    <div class="svg-section">
+      <img src="./assets/connect.svg?v=1" alt="Connect Section">
+    </div>
+
+    <!-- Project Verification Table -->
+    <div class="projects-table-container">
+      <h2>🚀 Featured Projects &amp; Verified Repositories</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>Role</th>
+            <th>Tech Stack</th>
+            <th>Repository URL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>BRAIN — Battery Analytics</strong></td>
+            <td>Group / Core Architect</td>
+            <td>React 18, TypeScript, Three.js, PINN, FastAPI, Docker, Web Bluetooth</td>
+            <td><a href="https://github.com/sanketchute17/BRAIN" target="_blank">github.com/sanketchute17/BRAIN</a></td>
+          </tr>
+          <tr>
+            <td><strong>CampusSync / RAISONI-PEERSPACE</strong></td>
+            <td>Solo Developer</td>
+            <td>React 18, Vite, Node.js, Express, Groq Llama 3.3, Firebase, Recharts</td>
+            <td><a href="https://github.com/sanketchute17/RAISONI-PEERSPACE" target="_blank">github.com/sanketchute17/RAISONI-PEERSPACE</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      <p>© 2026 Sanket Chute • Built for GitHub Profile <code>sanketchute17</code></p>
+    </footer>
+  </div>
+</body>
+</html>

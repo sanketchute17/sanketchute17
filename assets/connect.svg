@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="connBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b16" />
+      <stop offset="50%" stop-color="#0c1324" />
+      <stop offset="100%" stop-color="#070b16" />
+    </linearGradient>
+
+    <linearGradient id="connBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#ff354f" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#247bff" stop-opacity="0.7" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f192e" />
+      <stop offset="100%" stop-color="#090f1d" />
+    </linearGradient>
+
+    <pattern id="connDotPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#247bff" opacity="0.12" />
+    </pattern>
+
+    <filter id="laserGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .section-title {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      fill: #ff354f;
+      text-transform: uppercase;
+    }
+    .main-heading {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 22px;
+      font-weight: 800;
+      fill: #ffffff;
+    }
+    .card-label {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #247bff;
+      letter-spacing: 1px;
+    }
+    .card-val {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #ffffff;
+    }
+    .card-sub {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      font-size: 11px;
+      fill: #94a3b8;
+    }
+    .pulse-point {
+      animation: pointPulse 2s infinite ease-in-out;
+    }
+    @keyframes pointPulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; filter: drop-shadow(0 0 6px #00c6ff); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse-point { animation: none; }
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="5" y="5" width="840" height="310" rx="16" fill="url(#connBg)" />
+  <rect x="5" y="5" width="840" height="310" rx="16" fill="url(#connDotPattern)" />
+  <rect x="5" y="5" width="840" height="310" rx="16" fill="none" stroke="url(#connBorder)" stroke-width="2" />
+
+  <!-- Section Header -->
+  <g transform="translate(40, 32)">
+    <text x="0" y="0" class="section-title">LET'S CONNECT &amp; COLLABORATE</text>
+    <text x="0" y="24" class="main-heading">Reach Out &amp; Explore My Work</text>
+  </g>
+
+  <!-- Left Generic Pointing Avatar Graphic -->
+  <g transform="translate(35, 80)">
+    <!-- Outer Ring Base -->
+    <circle cx="90" cy="100" r="75" fill="#0d1527" stroke="rgba(36, 123, 255, 0.3)" stroke-width="1.5" />
+    <circle cx="90" cy="100" r="75" fill="none" stroke="#247bff" stroke-width="1.5" stroke-dasharray="6,4" />
+
+    <!-- Developer Avatar Torso & Head -->
+    <g transform="translate(25, 30)">
+      <!-- Shoulders -->
+      <path d="M 25 110 Q 65 85 105 110 C 108 120 95 130 65 130 C 35 130 22 120 25 110 Z" fill="#131f37" stroke="#247bff" stroke-width="1" />
+      <circle cx="65" cy="115" r="3" fill="#ff354f" />
+      <!-- Head -->
+      <path d="M 40 55 C 40 28 90 28 90 55 C 90 78 78 85 65 85 C 52 85 40 78 40 55 Z" fill="#0f192e" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+      <!-- Visor -->
+      <path d="M 42 48 C 48 44 82 44 88 48 C 91 54 89 62 86 64 C 72 67 56 67 44 64 C 41 62 39 54 42 48 Z" fill="#00c6ff" />
+      <!-- Headphone Pads -->
+      <rect x="34" y="46" width="6" height="16" rx="2" fill="#ff354f" />
+      <rect x="90" y="46" width="6" height="16" rx="2" fill="#247bff" />
+      
+      <!-- Extended Arm Pointing Right -->
+      <path d="M 95 100 Q 115 95 135 95" stroke="#131f37" stroke-width="12" stroke-linecap="round" />
+      <circle cx="135" cy="95" r="5" fill="#00c6ff" class="pulse-point" filter="url(#laserGlow)" />
+      <line x1="140" y1="95" x2="165" y2="95" stroke="#00c6ff" stroke-width="2" stroke-dasharray="3,2" class="pulse-point" />
+    </g>
+  </g>
+
+  <!-- Right Side 4 Contact Cards Grid -->
+  <g transform="translate(235, 90)">
+    <!-- Card 1: Email -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="280" height="92" rx="10" fill="url(#cardGrad)" stroke="rgba(36, 123, 255, 0.25)" stroke-width="1" />
+      <circle cx="28" cy="28" r="14" fill="rgba(36, 123, 255, 0.15)" />
+      <!-- Mail Icon SVG -->
+      <path d="M 20 23 L 28 29 L 36 23 M 20 22 H 36 V 34 H 20 Z" stroke="#247bff" stroke-width="1.5" fill="none" />
+      <text x="52" y="26" class="card-label">EMAIL</text>
+      <text x="52" y="46" class="card-val">sanketchute17@gmail.com</text>
+      <text x="52" y="66" class="card-sub">Send inquiries &amp; proposals</text>
+    </g>
+
+    <!-- Card 2: LinkedIn -->
+    <g transform="translate(295, 0)">
+      <rect x="0" y="0" width="280" height="92" rx="10" fill="url(#cardGrad)" stroke="rgba(0, 198, 255, 0.25)" stroke-width="1" />
+      <circle cx="28" cy="28" r="14" fill="rgba(0, 198, 255, 0.15)" />
+      <!-- LinkedIn Icon SVG -->
+      <path d="M 21 21 H 24 V 34 H 21 Z M 22.5 17 A 1.5 1.5 0 1 1 22.5 20 A 1.5 1.5 0 1 1 22.5 17 M 27 21 H 30 V 23 H 30.2 C 30.6 22.2 31.6 21.4 33 21.4 C 36 21.4 36.5 23.4 36.5 26 V 34 H 33.5 V 27 C 33.5 25.3 33 24.2 31.5 24.2 C 30.4 24.2 29.8 25 29.5 25.7 V 34 H 27 Z" fill="#00c6ff" />
+      <text x="52" y="26" class="card-label" fill="#00c6ff">LINKEDIN</text>
+      <text x="52" y="46" class="card-val">in/sanket-chute-a84433281</text>
+      <text x="52" y="66" class="card-sub">Professional network &amp; updates</text>
+    </g>
+
+    <!-- Card 3: Portfolio -->
+    <g transform="translate(0, 104)">
+      <rect x="0" y="0" width="280" height="92" rx="10" fill="url(#cardGrad)" stroke="rgba(255, 53, 79, 0.25)" stroke-width="1" />
+      <circle cx="28" cy="28" r="14" fill="rgba(255, 53, 79, 0.15)" />
+      <!-- Web Globe Icon SVG -->
+      <circle cx="28" cy="28" r="8" fill="none" stroke="#ff354f" stroke-width="1.5" />
+      <line x1="20" y1="28" x2="36" y2="28" stroke="#ff354f" stroke-width="1.5" />
+      <ellipse cx="28" cy="28" rx="4" ry="8" fill="none" stroke="#ff354f" stroke-width="1" />
+      <text x="52" y="26" class="card-label" fill="#ff354f">PORTFOLIO</text>
+      <text x="52" y="46" class="card-val">web.sanketchute17.workers.dev</text>
+      <text x="52" y="66" class="card-sub">Interactive web showcase</text>
+    </g>
+
+    <!-- Card 4: GitHub -->
+    <g transform="translate(295, 104)">
+      <rect x="0" y="0" width="280" height="92" rx="10" fill="url(#cardGrad)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" />
+      <circle cx="28" cy="28" r="14" fill="rgba(16, 185, 129, 0.15)" />
+      <!-- Code Icon SVG -->
+      <path d="M 23 24 L 18 28 L 23 32 M 33 24 L 38 28 L 33 32 M 30 21 L 26 35" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" fill="none" />
+      <text x="52" y="26" class="card-label" fill="#10b981">GITHUB</text>
+      <text x="52" y="46" class="card-val">github.com/sanketchute17</text>
+      <text x="52" y="66" class="card-sub">Open-source repositories</text>
+    </g>
+  </g>
+</svg>
