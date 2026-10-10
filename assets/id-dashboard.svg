@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 360" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 400" width="100%" height="100%">
   <defs>
     <linearGradient id="idBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070b16" />
@@ -10,6 +10,19 @@
       <stop offset="0%" stop-color="#247bff" stop-opacity="0.7" />
       <stop offset="50%" stop-color="#ff354f" stop-opacity="0.3" />
       <stop offset="100%" stop-color="#247bff" stop-opacity="0.7" />
+    </linearGradient>
+
+    <linearGradient id="metallicChrome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="25%" stop-color="#cbd5e1" />
+      <stop offset="50%" stop-color="#475569" />
+      <stop offset="75%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <linearGradient id="lanyardRibbon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff354f" />
+      <stop offset="100%" stop-color="#247bff" />
     </linearGradient>
 
     <linearGradient id="chipGold" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -61,20 +74,22 @@
       font-weight: 700;
       fill: #00c6ff;
     }
-    .accent-val {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-      font-size: 13.5px;
-      font-weight: 700;
-      fill: #ff354f;
-    }
     .id-code {
       font-family: 'Courier New', Courier, monospace;
       font-size: 12px;
       fill: #64748b;
       letter-spacing: 1px;
     }
+    .hanging-card-group {
+      animation: gentleSwing 4s ease-in-out infinite alternate;
+      transform-origin: 220px 40px;
+    }
     .scan-line {
       animation: scanEffect 3s infinite linear;
+    }
+    @keyframes gentleSwing {
+      0% { transform: rotate(-1.5deg); }
+      100% { transform: rotate(1.5deg); }
     }
     @keyframes scanEffect {
       0% { transform: translateY(0px); opacity: 0; }
@@ -82,88 +97,92 @@
       100% { transform: translateY(320px); opacity: 0; }
     }
     @media (prefers-reduced-motion: reduce) {
-      .scan-line { animation: none; opacity: 0; }
+      .hanging-card-group, .scan-line { animation: none; }
     }
   </style>
 
-  <!-- Container Box -->
-  <rect x="5" y="5" width="840" height="350" rx="16" fill="url(#idBg)" />
-  <rect x="5" y="5" width="840" height="350" rx="16" fill="url(#idDotPattern)" />
-  <rect x="5" y="5" width="840" height="350" rx="16" fill="none" stroke="url(#idBorder)" stroke-width="2" />
+  <!-- Outer Container Box -->
+  <rect x="5" y="5" width="840" height="390" rx="16" fill="url(#idBg)" />
+  <rect x="5" y="5" width="840" height="390" rx="16" fill="url(#idDotPattern)" />
+  <rect x="5" y="5" width="840" height="390" rx="16" fill="none" stroke="url(#idBorder)" stroke-width="2" />
 
-  <!-- Animated Scanner Bar -->
+  <!-- Scanner Beam -->
   <line x1="10" y1="15" x2="840" y2="15" stroke="#247bff" stroke-width="2" opacity="0.4" class="scan-line" filter="url(#badgeGlow)" />
 
-  <!-- Header Banner -->
+  <!-- Section Title -->
   <g transform="translate(40, 32)">
     <text x="0" y="0" class="section-title">VERIFIED DEVELOPER CREDENTIALS</text>
-    <text x="0" y="24" class="main-heading">Developer ID Card &amp; Academic Dossier</text>
+    <text x="0" y="24" class="main-heading">Hanging Developer ID Badge Dossier</text>
   </g>
 
-  <!-- Left Main Profile ID Block -->
-  <g transform="translate(40, 90)">
-    <!-- ID Card Base -->
-    <rect x="0" y="0" width="360" height="230" rx="14" fill="#0f192e" stroke="rgba(36, 123, 255, 0.3)" stroke-width="1.5" />
-    <rect x="0" y="0" width="360" height="4" rx="2" fill="#247bff" />
+  <!-- Left Side Hanging Developer ID Card -->
+  <g class="hanging-card-group">
+    <!-- Lanyard Ribbon Straps -->
+    <path d="M 195 5 L 210 50 M 245 5 L 230 50" stroke="url(#lanyardRibbon)" stroke-width="12" stroke-linecap="round" opacity="0.85" />
 
-    <!-- Smart Chip Graphic -->
-    <rect x="25" y="22" width="38" height="28" rx="5" fill="url(#chipGold)" />
-    <line x1="25" y1="36" x2="63" y2="36" stroke="#b45309" stroke-width="1" />
-    <line x1="44" y1="22" x2="44" y2="50" stroke="#b45309" stroke-width="1" />
+    <!-- Metallic Clasp Top Ring -->
+    <rect x="205" y="45" width="30" height="14" rx="4" fill="url(#metallicChrome)" stroke="#1e293b" stroke-width="1.5" />
+    <circle cx="220" cy="52" r="4" fill="#070b16" />
 
-    <!-- Name & Handle -->
-    <text x="80" y="32" class="field-val" font-size="16px">SANKET CHUTE</text>
-    <text x="80" y="48" class="id-code">ID: SANKETCHUTE17 • VERIFIED</text>
+    <!-- Hanging ID Card Main Body -->
+    <g transform="translate(40, 95)">
+      <rect x="0" y="0" width="360" height="260" rx="14" fill="#0f192e" stroke="rgba(36, 123, 255, 0.35)" stroke-width="1.5" />
+      <rect x="0" y="0" width="360" height="4" rx="2" fill="#247bff" />
 
-    <!-- Divider Line -->
-    <line x1="25" y1="64" x2="335" y2="64" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+      <!-- Card Punch Slot -->
+      <rect x="160" y="-12" width="40" height="12" rx="6" fill="#070b16" stroke="url(#metallicChrome)" stroke-width="1.5" />
 
-    <!-- Fields Grid -->
-    <g transform="translate(25, 82)">
-      <!-- Education -->
-      <text x="0" y="0" class="field-label">EDUCATION &amp; CGPA</text>
-      <text x="0" y="18" class="field-val">B.Tech AI (RTMNU) • <tspan class="highlight-val">8.2 CGPA</tspan></text>
+      <!-- Smart Chip Graphic -->
+      <rect x="25" y="24" width="38" height="28" rx="5" fill="url(#chipGold)" />
+      <line x1="25" y1="38" x2="63" y2="38" stroke="#b45309" stroke-width="1" />
+      <line x1="44" y1="24" x2="44" y2="52" stroke="#b45309" stroke-width="1" />
 
-      <!-- Diploma -->
-      <text x="0" y="44" class="field-label">DIPLOMA (MSBTE)</text>
-      <text x="0" y="62" class="field-val">Computer Engineering • <tspan class="highlight-val">80.97%</tspan></text>
+      <!-- Name & Handle -->
+      <text x="80" y="34" class="field-val" font-size="16px">SANKET CHUTE</text>
+      <text x="80" y="50" class="id-code">ID: SANKETCHUTE17 • VERIFIED</text>
 
-      <!-- Location -->
-      <text x="0" y="88" class="field-label">LOCATION &amp; STATUS</text>
-      <text x="0" y="106" class="field-val">Nagpur, India • Open to Relocation</text>
-    </g>
+      <line x1="25" y1="66" x2="335" y2="66" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
 
-    <!-- Simulated Barcode Footer -->
-    <g transform="translate(25, 206)">
-      <line x1="0" y1="0" x2="310" y2="0" stroke="#247bff" stroke-width="3" stroke-dasharray="2,4,8,2,6,3,2,7,4,2,8,3,2" opacity="0.7" />
+      <!-- Verified Facts -->
+      <g transform="translate(25, 84)">
+        <text x="0" y="0" class="field-label">EDUCATION &amp; CGPA</text>
+        <text x="0" y="18" class="field-val">B.Tech AI (RTMNU) • <tspan class="highlight-val">8.2 CGPA</tspan></text>
+
+        <text x="0" y="44" class="field-label">DIPLOMA (MSBTE)</text>
+        <text x="0" y="62" class="field-val">Computer Engineering • <tspan class="highlight-val">80.97%</tspan></text>
+
+        <text x="0" y="88" class="field-label">EXPECTED GRADUATION</text>
+        <text x="0" y="106" class="field-val">Class of 2027 • Nagpur, Maharashtra</text>
+      </g>
+
+      <!-- Barcode Footer -->
+      <g transform="translate(25, 236)">
+        <line x1="0" y1="0" x2="310" y2="0" stroke="#247bff" stroke-width="3" stroke-dasharray="2,4,8,2,6,3,2,7,4,2,8,3,2" opacity="0.7" />
+      </g>
     </g>
   </g>
 
-  <!-- Right Side Credentials & Project Dossier -->
-  <g transform="translate(430, 90)">
-    <!-- Right Dossier Container -->
-    <rect x="0" y="0" width="380" height="230" rx="14" fill="#0f192e" stroke="rgba(255, 53, 79, 0.3)" stroke-width="1.5" />
+  <!-- Right Side Credentials & Project Matrix -->
+  <g transform="translate(430, 95)">
+    <rect x="0" y="0" width="380" height="260" rx="14" fill="#0f192e" stroke="rgba(255, 53, 79, 0.35)" stroke-width="1.5" />
     <rect x="0" y="0" width="380" height="4" rx="2" fill="#ff354f" />
 
     <g transform="translate(25, 24)">
-      <!-- Key Projects Verified -->
       <text x="0" y="0" class="field-label">PRIMARY FEATURED PROJECTS</text>
       <text x="0" y="20" class="field-val">1. BRAIN — Battery Risk &amp; Analytics Network</text>
-      <text x="20" y="36" class="field-val" font-size="12px" fill="#94a3b8">Physics-Informed Digital Twin &amp; BLE Ingestion</text>
+      <text x="20" y="36" class="field-val" font-size="12px" fill="#94a3b8">Physics-Informed Digital Twin &amp; BLE Telemetry</text>
 
-      <text x="0" y="58" class="field-val">2. CampusSync / RAISONI-PEERSPACE</text>
-      <text x="20" y="74" class="field-val" font-size="12px" fill="#94a3b8">AI Tutor (Groq Llama 3.3) &amp; Academic Platform</text>
+      <text x="0" y="60" class="field-val">2. CampusSync / RAISONI-PEERSPACE</text>
+      <text x="20" y="76" class="field-val" font-size="12px" fill="#94a3b8">AI Tutor (Groq Llama 3.3) &amp; Academic Platform</text>
 
-      <line x1="0" y1="92" x2="330" y2="92" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+      <line x1="0" y1="96" x2="330" y2="96" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
 
-      <!-- Work Experience -->
-      <text x="0" y="112" class="field-label">WORK EXPERIENCE</text>
-      <text x="0" y="130" class="field-val">• Machine Learning Intern @ CodeAlpha (Feb–Mar 2026)</text>
-      <text x="0" y="148" class="field-val">• Python Intern @ Brillect Tech Solutions (2023)</text>
+      <text x="0" y="118" class="field-label">WORK EXPERIENCE</text>
+      <text x="0" y="136" class="field-val">• Machine Learning Intern @ CodeAlpha (Feb–Mar 2026)</text>
+      <text x="0" y="154" class="field-val">• Python Intern @ Brillect Tech Solutions (2023)</text>
 
-      <!-- Certifications -->
-      <text x="0" y="174" class="field-label">CERTIFICATIONS</text>
-      <text x="0" y="192" class="field-val" font-size="12px">• Deloitte Tech Job Simulation • Infosys Prompt Engineering</text>
+      <text x="0" y="184" class="field-label">CERTIFICATIONS</text>
+      <text x="0" y="202" class="field-val" font-size="12px">• Deloitte Tech Job Simulation • Infosys Prompt Engineering</text>
     </g>
   </g>
 </svg>

@@ -12,11 +12,6 @@
       <stop offset="100%" stop-color="#247bff" stop-opacity="0.6" />
     </linearGradient>
 
-    <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#247bff" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.2" />
-    </linearGradient>
-
     <pattern id="stDotPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#247bff" opacity="0.1" />
     </pattern>
@@ -181,26 +176,17 @@
 
   <!-- Right Side Animated Orbit Graphic -->
   <g transform="translate(730, 240)">
-    <!-- Central Core Node -->
     <circle cx="0" cy="0" r="28" fill="#0d1527" stroke="#247bff" stroke-width="2" filter="url(#chipGlow)" />
     <text x="0" y="4" class="cat-label" fill="#ffffff" text-anchor="middle" font-size="11px">AI + WEB</text>
 
-    <!-- Inner Orbit Line -->
     <circle cx="0" cy="0" r="55" fill="none" stroke="rgba(36, 123, 255, 0.3)" stroke-width="1.5" stroke-dasharray="4,4" />
-    <!-- Outer Orbit Line -->
     <circle cx="0" cy="0" r="90" fill="none" stroke="rgba(255, 53, 79, 0.25)" stroke-width="1.5" stroke-dasharray="8,6" />
 
-    <!-- Orbiting Nodes Group -->
     <g class="orbit-line">
-      <!-- Orbit Node 1: PyTorch/TensorFlow -->
       <circle cx="0" cy="-55" r="8" fill="#247bff" class="pulse-node" />
-      <!-- Orbit Node 2: React -->
       <circle cx="55" cy="0" r="7" fill="#00c6ff" class="pulse-node" />
-      <!-- Orbit Node 3: Python -->
       <circle cx="-55" cy="0" r="7" fill="#ff354f" class="pulse-node" />
-      <!-- Orbit Node 4: FastAPI -->
       <circle cx="0" cy="55" r="8" fill="#10b981" class="pulse-node" />
-      <!-- Outer Orbit Node -->
       <circle cx="63" cy="-63" r="6" fill="#ff6b81" />
       <circle cx="-63" cy="63" r="6" fill="#247bff" />
     </g>

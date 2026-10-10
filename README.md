@@ -23,11 +23,11 @@
 
 ## 📝 About Me
 
-I am an **AI/ML Engineer and Full-Stack Developer** pursuing my B.Tech in Artificial Intelligence at G. H. Raisoni College of Engineering & Management, Nagpur (Expected 2027, CGPA: 8.2). I specialize in engineering production-grade cloud applications, Physics-Informed Neural Networks (PINN), Web Bluetooth telemetry integration, and AI-assisted academic ecosystems.
+AI/ML Engineer and Full-Stack Developer pursuing B.Tech in Artificial Intelligence at G. H. Raisoni College of Engineering & Management, Nagpur (Expected 2027, CGPA: 8.2). Specializing in Physics-Informed Neural Networks (PINN), Web Bluetooth telemetry integration, and AI-assisted cloud platforms.
 
 - 📍 **Location**: Nagpur, Maharashtra, India (Open to relocation)
-- 🎓 **Education**: B.Tech in Artificial Intelligence (RTMNU, CGPA 8.2) | Diploma in Computer Engineering (MSBTE, 80.97%)
-- 🎯 **Primary Focus**: AI/ML System Design, Physics-Informed Digital Twins, React/TypeScript Cloud Platforms, RESTful Microservices
+- 🎓 **Education**: B.Tech AI (RTMNU, CGPA 8.2) • Diploma Computer Engineering (MSBTE, 80.97%)
+- 🎯 **Core Focus**: AI/ML System Design, Physics-Informed Digital Twins, React 18 / TypeScript Platforms
 
 ---
 
@@ -37,13 +37,13 @@ I am an **AI/ML Engineer and Full-Stack Developer** pursuing my B.Tech in Artifi
 > **Full-Stack Cloud Platform, Physics-Informed Digital Twin & AI Battery Analytics**  
 > *Tech Stack: React 18, TypeScript, Three.js, Web Bluetooth GATT API, PINN, FastAPI, Docker, Render, Vercel, Firebase*
 
-- **Implemented Functionality**:
-  - **Cloud Platform Deployment**: Containerized Python/FastAPI microservices via Docker on Render with seamless failover to a Vercel-hosted React 18/TypeScript frontend.
-  - **Real-Time BLE Ingestion**: Built a Web Bluetooth (BLE GATT) telemetry engine that pairs and ingests live electrical parameters (Voltage, Current, Temperature).
-  - **AI-Powered Predictive Risk Engine**: Implemented Physics-Informed Neural Network (PINN) models to analyze telemetry and forecast thermal stress, cell imbalance ($\Delta V$), resistance growth ($m\Omega$), and SOH % degradation.
-  - **3D Digital Twin Visualizer**: Engineered an interactive Three.js (WebGL) 3D visualizer rendering dynamic thermal heatmaps, cell raycasting inspection, and load simulations ($0\text{--}100\text{ km/h}$, $-10^\circ\text{C to }55^\circ\text{C}$).
-- **Planned Roadmap**:
-  - Native hardware BLE transceiver integration and mobile (iOS/Android) native builds.
+- **Implemented Features**:
+  - **Cloud Architecture**: Containerized Python/FastAPI microservices via Docker on Render with failover to a Vercel-hosted React 18/TypeScript frontend.
+  - **Real-Time Telemetry Ingestion**: Built Web Bluetooth (BLE GATT) engine for live electrical parameters ($V, I, T$).
+  - **AI Predictive Risk Engine**: Implemented PINN models to forecast thermal stress, cell imbalance ($\Delta V$), resistance growth ($m\Omega$), and SOH % degradation.
+  - **3D Digital Twin Visualizer**: Three.js WebGL visualizer rendering dynamic thermal heatmaps, cell inspection, and load simulations.
+- **Future Roadmap**:
+  - Native hardware BLE transceivers and mobile iOS/Android native builds.
 
 ---
 
@@ -51,11 +51,11 @@ I am an **AI/ML Engineer and Full-Stack Developer** pursuing my B.Tech in Artifi
 > **Next-Gen AI-Driven Academic Intelligence & Peer Learning Ecosystem**  
 > *Tech Stack: React 18, Vite, Tailwind CSS, Node.js, Express.js, Firebase, Groq Llama-3.3 70B, Gemini AI, Recharts, Vercel*
 
-- **Implemented Functionality**:
-  - **Student Portal (AI & Doubts)**: Integrated an AI exam & study tutor powered by Groq Llama-3.3 70B and Gemini, featuring **Ghost Protocol** for anonymous Q&A.
-  - **Student Hub (Resources)**: Built a central hub for PYQs, peer study groups, lost & found, and placement prep material.
-  - **Faculty Portal (Mentorship & Analytics)**: Designed an asynchronous student-faculty pipeline for career mentorship and verified doubt resolution with Recharts query velocity dashboards.
-  - **Gamification Engine**: Architected an XP reward algorithm with daily streak counters and live campus leaderboards.
+- **Implemented Features**:
+  - **Student Portal**: AI tutor powered by Groq Llama-3.3 70B & Gemini with **Ghost Protocol** anonymous Q&A feed.
+  - **Resource Hub**: Study materials for PYQs, peer study groups, placement prep, and lost & found.
+  - **Faculty Portal & Analytics**: Asynchronous mentorship channel with Recharts interaction dashboards.
+  - **Gamification Engine**: XP reward algorithm with streak counters and campus leaderboards.
 
 ---
 
@@ -74,16 +74,10 @@ I am an **AI/ML Engineer and Full-Stack Developer** pursuing my B.Tech in Artifi
 
 ## 💼 Work Experience
 
-### **Machine Learning Intern** — CodeAlpha *(Remote)*  
-*Feb 2026 – Mar 2026*
-- Engineered a **Credit Risk Analyzer** model to assess applicant creditworthiness and output CIBIL score insights.
-- Developed a **CNN-based Handwritten Digit Recognition** system with real-time inference.
-- Integrated ML/DL models using Python, TensorFlow/Keras, Scikit-learn, OpenCV, Streamlit, Flask, React.js, Pandas, and NumPy.
-
-### **Python Intern** — Brillect Tech Solutions Pvt. Ltd. *(Nagpur, Maharashtra)*  
-*Jun 2023 – Jul 2023*
-- Strengthened core Python programming, structured coding practices, and practical software engineering workflows.
-- Improved code quality, debugging skills, and problem-solving methodologies across practical programming tasks.
+- **Machine Learning Intern** | *CodeAlpha* (Remote, Feb 2026 – Mar 2026)  
+  *Engineered Credit Risk Analyzer and CNN Handwritten Digit Recognition system using TensorFlow, OpenCV, and Streamlit.*
+- **Python Intern** | *Brillect Tech Solutions Pvt. Ltd.* (Nagpur, Jun 2023 – Jul 2023)  
+  *Developed structured Python modules, automated data workflows, and debugged practical software challenges.*
 
 ---
 
