@@ -148,7 +148,7 @@
         <text x="0" y="0" class="field-label">SOFTWARE ENGINEERING FOCUS</text>
         <text x="0" y="18" class="field-val">AI/ML • Physics Neural Networks</text>
 
-        <text x="0" y="44" class="field-label">EDUCATION &amp; CGPA</text>
+        <text x="0" y="44" class="field-label">DEGREE &amp; CGPA</text>
         <text x="0" y="62" class="field-val">B.Tech AI (RTMNU) • <tspan class="highlight-val">8.2 CGPA</tspan></text>
 
         <text x="0" y="88" class="field-label">DIPLOMA (MSBTE)</text>
@@ -165,28 +165,28 @@
     </g>
   </g>
 
-  <!-- Right Side Academic Summary Card -->
+  <!-- Right Side Verified Academic Milestones Card -->
   <g transform="translate(425, 140)">
     <rect x="0" y="0" width="390" height="250" rx="14" fill="#0F192E" stroke="rgba(255, 53, 79, 0.35)" stroke-width="1.5" />
     <rect x="0" y="0" width="390" height="4" rx="2" fill="#FF354F" />
 
     <g transform="translate(22, 22)">
-      <text x="0" y="0" class="field-label">ACADEMIC INSTITUTION</text>
+      <text x="0" y="0" class="field-label">ACADEMIC TIMELINE &amp; INSTITUTION</text>
       <text x="0" y="20" class="field-val">G. H. Raisoni College of Engineering</text>
       <text x="0" y="36" class="field-val" font-size="11px" fill="#9AA8BD">&amp; Management, Nagpur, Maharashtra</text>
 
       <line x1="0" y1="52" x2="346" y2="52" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
 
-      <text x="0" y="74" class="field-label">CORE ENGINEERING SPECIALIZATIONS</text>
-      <text x="0" y="92" class="field-val">• Physics Neural Networks (PINN)</text>
-      <text x="0" y="110" class="field-val">• Web Bluetooth BLE GATT Telemetry</text>
-      <text x="0" y="128" class="field-val">• Groq Llama-3.3 &amp; Gemini AI Tutors</text>
+      <text x="0" y="74" class="field-label">EDUCATION MILESTONES</text>
+      <text x="0" y="92" class="field-val">1. B.Tech Artificial Intelligence (2023 – 2027)</text>
+      <text x="0" y="110" class="field-val">2. Diploma Computer Engineering (2020 – 2023)</text>
+      <text x="0" y="128" class="field-val">3. Verified Professional Dossier Records</text>
 
       <line x1="0" y1="144" x2="346" y2="144" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
 
-      <text x="0" y="166" class="field-label">SYSTEM ARCHITECTURE</text>
-      <text x="0" y="184" class="field-val">• Full-Stack React / TypeScript Apps</text>
-      <text x="0" y="202" class="field-val" font-size="11px" fill="#10B981">✓ Verified Official Dossier Credentials</text>
+      <text x="0" y="166" class="field-label">VERIFICATION STATUS</text>
+      <text x="0" y="184" class="field-val" fill="#00C6FF">• 100% Resume &amp; Academic Alignment</text>
+      <text x="0" y="202" class="field-val" font-size="11px" fill="#10B981">✓ Official Dossier Records Checked</text>
     </g>
   </g>
 </svg>

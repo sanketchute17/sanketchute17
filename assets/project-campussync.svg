@@ -59,7 +59,7 @@
 
       <line x1="34" y1="0" x2="80" y2="40" stroke="rgba(245, 158, 11, 0.5)" stroke-width="1.5" />
       <circle cx="80" cy="40" r="14" fill="#F59E0B" />
-      <text x="-80" y="44" font-family="'Courier New', Courier, 'Lucida Console', Consolas, monospace" font-size="8.5px" font-weight="700" fill="#FFFFFF" text-anchor="middle">XP</text>
+      <text x="80" y="44" font-family="'Courier New', Courier, 'Lucida Console', Consolas, monospace" font-size="8.5px" font-weight="700" fill="#FFFFFF" text-anchor="middle">XP</text>
     </g>
   </g>
 
