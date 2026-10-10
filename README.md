@@ -1,14 +1,14 @@
 # Hi, I'm Sanket Chute 👋
 
-![Introduction](./assets/hero.svg?v=1)
+![Introduction](./assets/hero.svg?v=2)
 
-![About](./assets/about-life.svg?v=1)
+![About](./assets/about-life.svg?v=2)
 
-![Technology Stack](./assets/stack.svg?v=1)
+![Technology Stack](./assets/stack.svg?v=2)
 
-![Developer ID](./assets/id-dashboard.svg?v=1)
+![Developer ID](./assets/id-dashboard.svg?v=2)
 
-![Connect](./assets/connect.svg?v=1)
+![Connect](./assets/connect.svg?v=2)
 
 ---
 
