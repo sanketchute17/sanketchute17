@@ -24,35 +24,35 @@
 
   <style>
     .section-title {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-      font-size: 13px;
+      font-family: 'Courier New', Courier, 'Lucida Console', Consolas, monospace;
+      font-size: 11.5px;
       font-weight: 700;
-      letter-spacing: 2px;
+      letter-spacing: 1.5px;
       fill: #FF354F;
       text-transform: uppercase;
     }
     .main-heading {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-      font-size: 22px;
+      font-family: 'Courier New', Courier, 'Lucida Console', Consolas, monospace;
+      font-size: 20px;
       font-weight: 800;
       fill: #F3F5FA;
     }
     .card-label {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-      font-size: 11px;
+      font-family: 'Courier New', Courier, 'Lucida Console', Consolas, monospace;
+      font-size: 10px;
       font-weight: 700;
       fill: #247BFF;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
     }
     .card-val {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-      font-size: 13px;
-      font-weight: 600;
+      font-family: 'Courier New', Courier, 'Lucida Console', Consolas, monospace;
+      font-size: 10.5px;
+      font-weight: 700;
       fill: #F3F5FA;
     }
     .card-sub {
-      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-      font-size: 11px;
+      font-family: 'Courier New', Courier, 'Lucida Console', Consolas, monospace;
+      font-size: 9.5px;
       fill: #9AA8BD;
     }
   </style>
@@ -63,57 +63,57 @@
   <rect x="5" y="5" width="840" height="230" rx="16" fill="none" stroke="url(#connBorder)" stroke-width="2" />
 
   <!-- Section Header -->
-  <g transform="translate(40, 32)">
+  <g transform="translate(35, 32)">
     <text x="0" y="0" class="section-title">LET'S CONNECT &amp; COLLABORATE</text>
     <text x="0" y="24" class="main-heading">Reach Out &amp; Explore My Work</text>
   </g>
 
-  <!-- 4 Social Cards (NO PORTRAIT - Clean 4-column layout spanning 840px) -->
-  <g transform="translate(40, 85)">
+  <!-- 4 Social Cards -->
+  <g transform="translate(35, 85)">
     <!-- Card 1: Email -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="180" height="110" rx="10" fill="url(#cardGrad)" stroke="rgba(36, 123, 255, 0.25)" stroke-width="1" />
+      <rect x="0" y="0" width="185" height="110" rx="10" fill="url(#cardGrad)" stroke="rgba(36, 123, 255, 0.25)" stroke-width="1" />
       <circle cx="28" cy="28" r="14" fill="rgba(36, 123, 255, 0.15)" />
       <path d="M 20 23 L 28 29 L 36 23 M 20 22 H 36 V 34 H 20 Z" stroke="#247BFF" stroke-width="1.5" fill="none" />
       <text x="52" y="26" class="card-label">EMAIL</text>
-      <text x="16" y="60" class="card-val" font-size="11.5px">sanketchute17</text>
-      <text x="16" y="76" class="card-val" font-size="11.5px">@gmail.com</text>
-      <text x="16" y="94" class="card-sub">Inquiries &amp; proposals</text>
+      <text x="14" y="60" class="card-val">sanketchute17</text>
+      <text x="14" y="76" class="card-val">@gmail.com</text>
+      <text x="14" y="94" class="card-sub">Inquiries &amp; proposals</text>
     </g>
 
     <!-- Card 2: LinkedIn -->
-    <g transform="translate(196, 0)">
-      <rect x="0" y="0" width="180" height="110" rx="10" fill="url(#cardGrad)" stroke="rgba(0, 198, 255, 0.25)" stroke-width="1" />
+    <g transform="translate(198, 0)">
+      <rect x="0" y="0" width="185" height="110" rx="10" fill="url(#cardGrad)" stroke="rgba(0, 198, 255, 0.25)" stroke-width="1" />
       <circle cx="28" cy="28" r="14" fill="rgba(0, 198, 255, 0.15)" />
       <path d="M 21 21 H 24 V 34 H 21 Z M 22.5 17 A 1.5 1.5 0 1 1 22.5 20 A 1.5 1.5 0 1 1 22.5 17 M 27 21 H 30 V 23 H 30.2 C 30.6 22.2 31.6 21.4 33 21.4 C 36 21.4 36.5 23.4 36.5 26 V 34 H 33.5 V 27 C 33.5 25.3 33 24.2 31.5 24.2 C 30.4 24.2 29.8 25 29.5 25.7 V 34 H 27 Z" fill="#00C6FF" />
       <text x="52" y="26" class="card-label" fill="#00C6FF">LINKEDIN</text>
-      <text x="16" y="60" class="card-val" font-size="11.5px">sanket-chute</text>
-      <text x="16" y="76" class="card-val" font-size="11.5px">-a84433281</text>
-      <text x="16" y="94" class="card-sub">Professional network</text>
+      <text x="14" y="60" class="card-val">sanket-chute</text>
+      <text x="14" y="76" class="card-val">-a84433281</text>
+      <text x="14" y="94" class="card-sub">Professional network</text>
     </g>
 
     <!-- Card 3: Portfolio -->
-    <g transform="translate(392, 0)">
-      <rect x="0" y="0" width="180" height="110" rx="10" fill="url(#cardGrad)" stroke="rgba(255, 53, 79, 0.25)" stroke-width="1" />
+    <g transform="translate(396, 0)">
+      <rect x="0" y="0" width="185" height="110" rx="10" fill="url(#cardGrad)" stroke="rgba(255, 53, 79, 0.25)" stroke-width="1" />
       <circle cx="28" cy="28" r="14" fill="rgba(255, 53, 79, 0.15)" />
       <circle cx="28" cy="28" r="8" fill="none" stroke="#FF354F" stroke-width="1.5" />
       <line x1="20" y1="28" x2="36" y2="28" stroke="#FF354F" stroke-width="1.5" />
       <ellipse cx="28" cy="28" rx="4" ry="8" fill="none" stroke="#FF354F" stroke-width="1" />
       <text x="52" y="26" class="card-label" fill="#FF354F">PORTFOLIO</text>
-      <text x="16" y="60" class="card-val" font-size="11.5px">web.sanketchute17</text>
-      <text x="16" y="76" class="card-val" font-size="11.5px">.workers.dev</text>
-      <text x="16" y="94" class="card-sub">Interactive web showcase</text>
+      <text x="14" y="60" class="card-val">web.sanketchute17</text>
+      <text x="14" y="76" class="card-val">.workers.dev</text>
+      <text x="14" y="94" class="card-sub">Interactive web showcase</text>
     </g>
 
     <!-- Card 4: GitHub -->
-    <g transform="translate(588, 0)">
-      <rect x="0" y="0" width="180" height="110" rx="10" fill="url(#cardGrad)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" />
+    <g transform="translate(594, 0)">
+      <rect x="0" y="0" width="185" height="110" rx="10" fill="url(#cardGrad)" stroke="rgba(16, 185, 129, 0.25)" stroke-width="1" />
       <circle cx="28" cy="28" r="14" fill="rgba(16, 185, 129, 0.15)" />
       <path d="M 23 24 L 18 28 L 23 32 M 33 24 L 38 28 L 33 32 M 30 21 L 26 35" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" fill="none" />
       <text x="52" y="26" class="card-label" fill="#10B981">GITHUB</text>
-      <text x="16" y="60" class="card-val" font-size="11.5px">github.com/</text>
-      <text x="16" y="76" class="card-val" font-size="11.5px">sanketchute17</text>
-      <text x="16" y="94" class="card-sub">Open-source projects</text>
+      <text x="14" y="60" class="card-val">github.com/</text>
+      <text x="14" y="76" class="card-val">sanketchute17</text>
+      <text x="14" y="94" class="card-sub">Open-source repositories</text>
     </g>
   </g>
 </svg>

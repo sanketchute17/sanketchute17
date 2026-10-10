@@ -1,18 +1,18 @@
 # Hi, I'm Sanket Chute 👋
 
-![Introduction](./assets/hero.svg?v=3)
+![Introduction](./assets/hero.svg?v=4)
 
-![About & Capability Matrix](./assets/about-life.svg?v=3)
+![About & Capability Matrix](./assets/about-life.svg?v=4)
 
-![Technology Stack](./assets/stack.svg?v=3)
+![Technology Stack](./assets/stack.svg?v=4)
 
-![Developer ID Dashboard](./assets/id-dashboard.svg?v=3)
+![Developer ID Dashboard](./assets/id-dashboard.svg?v=4)
 
-![BRAIN — Battery Analytics System Architecture](./assets/project-brain.svg?v=3)
+![BRAIN — Battery Analytics System Architecture](./assets/project-brain.svg?v=4)
 
-![CampusSync Academic AI Platform](./assets/project-campussync.svg?v=3)
+![CampusSync Academic AI Platform](./assets/project-campussync.svg?v=4)
 
-![Connect & Social Network](./assets/connect.svg?v=3)
+![Connect & Social Network](./assets/connect.svg?v=4)
 
 ---
 
