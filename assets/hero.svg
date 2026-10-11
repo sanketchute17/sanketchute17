@@ -199,15 +199,15 @@
     <text x="0" y="116" class="greeting-text" fill="#9AA8BD">AI/ML • FULL-STACK DEVELOPMENT</text>
 
     <!-- One-Line Pitch -->
-    <text x="0" y="146" class="pitch-title">Building intelligent systems. Engineering ideas into products.</text>
+    <text x="0" y="146" class="pitch-title">Architecting deterministic AI engines &amp; cyber-physical digital twins.</text>
     <text x="0" y="168" class="sub-text">B.Tech Artificial Intelligence Student (RTMNU • CGPA: 8.2)</text>
-    <text x="0" y="188" class="sub-text">Location: Nagpur, Maharashtra, India (Open to Relocation)</text>
+    <text x="0" y="188" class="sub-text">Core Specialization: Machine Learning, PINN Physics AI &amp; Full-Stack Systems</text>
 
     <!-- Active Status Pill -->
     <g transform="translate(0, 218)">
       <rect x="0" y="0" width="350" height="28" rx="14" fill="rgba(16, 185, 129, 0.1)" stroke="rgba(16, 185, 129, 0.35)" stroke-width="1" />
       <circle cx="14" cy="14" r="4" fill="#10B981" class="pulse-dot" />
-      <text x="26" y="18" class="status-text">Building BRAIN, PlaceTrack AI &amp; CampusSync</text>
+      <text x="26" y="18" class="status-text">Active Systems: BRAIN (PINN/BLE), CampusSync &amp; PlaceTrack AI</text>
     </g>
   </g>
 
