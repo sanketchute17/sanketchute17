@@ -1,6 +1,6 @@
 # Hi, I'm Sanket Chute 👋
 
-![Introduction](./assets/hero.svg?v=6)
+![Introduction](./assets/hero.svg?v=7)
 
 ![About & Capability Matrix](./assets/about-life.svg?v=6)
 
