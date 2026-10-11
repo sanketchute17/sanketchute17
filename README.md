@@ -21,9 +21,13 @@
 
 ## 🚀 Featured Engineering Projects
 
-### 1. ⚡ [BRAIN — Battery Risk & Analytics Intelligence Network](https://github.com/sanketchute17/BRAIN)
+<table width="100%">
+<tr>
+<td>
 
-<p align="left">
+### ⚡ 1. [BRAIN — Battery Risk & Analytics Intelligence Network](https://github.com/sanketchute17/BRAIN)
+
+<p>
   <a href="https://frontend-three-pi-88.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Production%20Demo-Live%20Streaming-00C6FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
   <a href="https://github.com/sanketchute17/BRAIN" target="_blank"><img src="https://img.shields.io/badge/Source%20Code-Repository-247BFF?style=for-the-badge&logo=github&logoColor=white" alt="Repository" /></a>
   <img src="https://img.shields.io/badge/Architecture-PINN%20AI%20%7C%20BLE%20GATT-10B981?style=for-the-badge" alt="Architecture" />
@@ -31,30 +35,31 @@
 
 <p align="center">
   <a href="https://frontend-three-pi-88.vercel.app/" target="_blank">
-    <img src="./assets/project-brain.png" width="100%" alt="BRAIN Battery Risk & Analytics Intelligence Network Dashboard" style="border-radius: 12px; border: 1px solid rgba(36, 123, 255, 0.35);" />
+    <img src="./assets/project-brain.png" width="100%" alt="BRAIN Battery Risk & Analytics Intelligence Network Dashboard" />
   </a>
 </p>
 
-> **Cyber-Physical Electro-Thermal Digital Twin & Hardware-Gated BLE Telemetry Ingestion Platform**  
-> *Core Stack: React 18, TypeScript, Three.js WebGL, PINN Physics AI, Web Bluetooth GATT, Tailwind CSS*
+**Cyber-Physical Electro-Thermal Digital Twin & Hardware-Gated BLE Telemetry Ingestion Platform**
 
-- **Deterministic Physics-Informed Neural Architecture**: Engineered a hybrid electro-thermal neural framework coupling fundamental conservation laws with live empirical cell telemetry to predict State of Health (SOH %) and forecast non-linear thermal runaway vectors.
-- **Hardware-Gated BLE GATT Telemetry Ingestion**: Designed a low-latency Web Bluetooth GATT characteristic streaming pipeline with deterministic fail-safe zero-state fallback routines (0.0V / 0.0A) to prevent ghost telemetry during hardware disconnection.
-- **60 FPS Cyber-Physical Digital Twin Visualizer**: Implemented a Three.js WebGL visualizer rendering dynamic 8-cell thermodynamic heatmaps, interactive cell-level inspection, and multi-EV scooter profile presets (Ola S1 Pro, Ather 450X, TVS iQube).
-- **Client-Side "What-If" Stress Simulation Runtime**: Architected a parametric simulation sandbox enabling real-time stress testing across variable velocity regimes (0–100 km/h) and ambient thermal gradients (-10°C to 55°C).
+- **Deterministic Physics-Informed Neural Network (PINN)**: Engineered a hybrid electro-thermal neural framework coupling fundamental conservation laws with live empirical telemetry to forecast State of Health (SOH %) and mitigate thermal runaway boundaries.
+- **Hardware-Gated BLE GATT Telemetry Ingestion**: Designed low-latency Web Bluetooth GATT characteristic streaming with deterministic fail-safe zero-state fallback routines (0.0V / 0.0A) to eliminate ghost telemetry during hardware disconnection.
+- **60 FPS Cyber-Physical Digital Twin Visualizer**: Implemented a Three.js WebGL visualizer rendering dynamic 8-cell thermodynamic heatmaps across Ola S1 Pro, Ather 450X, and TVS iQube presets.
 
-| Operational Dimension | System Implementation Specification |
-| :--- | :--- |
-| **Telemetry Pipeline** | Direct Web Bluetooth Low Energy (BLE GATT) Characteristic Pairing |
-| **Digital Twin Engine** | 60 FPS WebGL Shaders & Dynamic Three.js Thermal Heatmaps |
-| **Neural Core** | Client-Side Physics-Informed Neural Network (PINN) + Explainable AI (XAI) |
-| **Fail-Safe Mechanism** | Deterministic Zero-State Disconnect Protocol |
+<p>
+  <strong>Core Stack</strong>: <code>React 18</code> • <code>TypeScript</code> • <code>Three.js WebGL</code> • <code>PINN Physics AI</code> • <code>Web Bluetooth GATT</code> • <code>Tailwind CSS</code>
+</p>
 
----
+</td>
+</tr>
+</table>
 
-### 2. 🧠 [CampusSync / RAISONI-PEERSPACE](https://github.com/sanketchute17/RAISONI-PEERSPACE)
+<table width="100%">
+<tr>
+<td>
 
-<p align="left">
+### 🧠 2. [CampusSync / RAISONI-PEERSPACE](https://github.com/sanketchute17/RAISONI-PEERSPACE)
+
+<p>
   <a href="https://peerspace-ten.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Production%20Demo-PeerSpace%20Live-00C6FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
   <a href="https://github.com/sanketchute17/RAISONI-PEERSPACE" target="_blank"><img src="https://img.shields.io/badge/Source%20Code-Repository-247BFF?style=for-the-badge&logo=github&logoColor=white" alt="Repository" /></a>
   <img src="https://img.shields.io/badge/Cognitive%20Core-Groq%20Llama%203.3%2070B-FF354F?style=for-the-badge" alt="AI Core" />
@@ -62,30 +67,31 @@
 
 <p align="center">
   <a href="https://peerspace-ten.vercel.app/" target="_blank">
-    <img src="./assets/project-campussync.png" width="100%" alt="CampusSync Academic Platform Dashboard" style="border-radius: 12px; border: 1px solid rgba(0, 198, 255, 0.35);" />
+    <img src="./assets/project-campussync.png" width="100%" alt="CampusSync Academic Platform Dashboard" />
   </a>
 </p>
 
-> **High-Concurrency Distributed Academic Intelligence & Collaborative Discourse Ecosystem**  
-> *Core Stack: React 18, Vite, Firebase Firestore, Groq Llama-3.3 70B, Gemini AI, Tailwind CSS, Vercel*
+**High-Concurrency Distributed Academic Intelligence & Collaborative Discourse Ecosystem**
 
-- **Sub-Second Cognitive Inference Engine**: Orchestrated an autonomous pedagogical assistant powered by Groq-accelerated Llama-3.3 70B and Gemini for instantaneous syllabus decomposition and technical doubt resolution.
+- **Sub-Second Cognitive Inference Engine**: Orchestrated 24/7 autonomous pedagogical assistance powered by Groq-accelerated Llama-3.3 70B and Gemini for instantaneous syllabus decomposition and technical doubt resolution.
 - **Cryptographic "Ghost Protocol" Discourse Layer**: Engineered an anonymous inquiry channel with cryptographic identifier decoupling, eliminating social evaluation apprehension and fostering transparent academic exchange.
-- **Asynchronous Mentorship & Interaction Telemetry**: Constructed a faculty triage portal featuring event-driven inquiry dispatch, asynchronous response pipelines, and Recharts interaction telemetry dashboards.
-- **Gamified Engagement & Reputation Algorithms**: Designed an algorithmic XP reward distribution model calculating engagement velocity, daily streak continuity, and peer validation leaderboards.
+- **Asynchronous Mentorship & Interaction Telemetry**: Constructed faculty triage portals with event-driven inquiry dispatch, asynchronous response pipelines, and Recharts interaction telemetry dashboards.
 
-| Operational Dimension | System Implementation Specification |
-| :--- | :--- |
-| **Cognitive Inference** | Groq-Accelerated Llama-3.3 70B & Gemini LLM Runtime |
-| **State Synchronization** | Low-Latency Firebase Firestore Real-Time Database |
-| **Anonymity Layer** | Decoupled Cryptographic Ghost Protocol Pipeline |
-| **Mentorship Telemetry** | Asynchronous Faculty Inbox with Recharts Dashboards |
+<p>
+  <strong>Core Stack</strong>: <code>React 18</code> • <code>Vite</code> • <code>Firebase Firestore</code> • <code>Groq Llama-3.3 70B</code> • <code>Gemini AI</code> • <code>Tailwind CSS</code> • <code>Vercel</code>
+</p>
 
----
+</td>
+</tr>
+</table>
 
-### 3. 🎯 [PlaceTrack AI — Placement Hub & ATS Analytics](https://github.com/sanketchute17/sanket.portfolio)
+<table width="100%">
+<tr>
+<td>
 
-<p align="left">
+### 🎯 3. [PlaceTrack AI — Placement Hub & ATS Analytics](https://github.com/sanketchute17/sanket.portfolio)
+
+<p>
   <a href="https://place-track-ai.vercel.app/login" target="_blank"><img src="https://img.shields.io/badge/Production%20Demo-PlaceTrack%20Live-10B981?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
   <a href="https://github.com/sanketchute17/sanket.portfolio" target="_blank"><img src="https://img.shields.io/badge/Source%20Code-Repository-247BFF?style=for-the-badge&logo=github&logoColor=white" alt="Repository" /></a>
   <img src="https://img.shields.io/badge/Security-JWT%20RBAC%20%7C%20Supabase-00C6FF?style=for-the-badge" alt="Security" />
@@ -93,55 +99,67 @@
 
 <p align="center">
   <a href="https://place-track-ai.vercel.app/login" target="_blank">
-    <img src="./assets/project-placetrack.png" width="100%" alt="PlaceTrack AI Placement Management Dashboard" style="border-radius: 12px; border: 1px solid rgba(255, 53, 79, 0.35);" />
+    <img src="./assets/project-placetrack.png" width="100%" alt="PlaceTrack AI Placement Management Dashboard" />
   </a>
 </p>
 
-> **Enterprise Placement Orchestration & Algorithmic ATS Resume Verification Engine**  
-> *Core Stack: React.js, Node.js, Express.js, Supabase, PostgreSQL, JWT Authentication, RESTful APIs*
+**Enterprise Placement Orchestration & Algorithmic ATS Resume Verification Engine**
 
 - **Algorithmic ATS Parsing & Compliance Engine**: Built a heuristic resume auditing engine evaluating contextual keyword density ratios, structural schema compliance, and JD semantic alignment metrics with live diagnostic feedback.
-- **Cryptographic Role-Based Access Control (RBAC)**: Implemented multi-tenant authorization barriers strictly partitioning Students, Corporate Recruiters, and Training & Placement Officers (TPO) using cryptographically signed JWT sessions.
-- **Relational Data Pipelines on Supabase PostgreSQL**: Architected high-integrity relational schemas managing recruitment drive lifecycles, interview coordination matrices, and historical applicant tracking.
-- **Institutional Telemetry & Placement Analytics**: Engineered administrative oversight dashboards monitoring recruitment velocity, package distributions, and branch placement rates (1,540+ student profiles).
+- **Cryptographic Role-Based Access Control (RBAC)**: Implemented multi-tenant authorization barriers strictly partitioning Students, Corporate Recruiters, and Placement Officers (TPO) using cryptographically signed JWT sessions.
+- **Relational Data Pipelines on Supabase PostgreSQL**: Architected high-integrity relational schemas managing recruitment drive lifecycles, interview coordination matrices, and placement analytics (1,540+ student profiles).
 
-| Operational Dimension | System Implementation Specification |
-| :--- | :--- |
-| **Relational Database** | Supabase Managed PostgreSQL with Relational Constraints |
-| **Authentication Framework** | Cryptographic JWT Stateless Token RBAC Architecture |
-| **Parsing Engine** | Heuristic Semantic ATS Keyword Match & Scoring Pipeline |
-| **Administrative Scope** | End-to-End Recruitment Drive Orchestration & Analytics |
+<p>
+  <strong>Core Stack</strong>: <code>React.js</code> • <code>Node.js</code> • <code>Express.js</code> • <code>Supabase PostgreSQL</code> • <code>JWT Auth</code> • <code>REST APIs</code>
+</p>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 💼 Industry Engineering Internships
 
-### 1. **Machine Learning & Deep Learning Intern** | [CodeAlpha](https://github.com/sanketchute17-ctrl/CODEALPHA)
-*Remote / India • February 2026 – March 2026*  
-*Core Stack: Python 3, TensorFlow, Scikit-Learn, OpenCV, Streamlit, Flask*
+<table width="100%">
+<tr>
+<td>
 
-- **Credit Risk Analyzer**: Trained empirical classification models forecasting customer creditworthiness and CIBIL score ratings (300–900), deploying interactive risk assessment dashboards via Streamlit.
-- **Deep Convolutional Neural Network (CNN)**: Architected an image classification model trained on deep convolutional layers, paired with an OpenCV raster canvas for real-time digit recognition inference.
-- **RESTful Model Serving**: Integrated machine learning inference pipelines with lightweight Flask REST APIs and React glassmorphic interfaces.
+### 🏢 Industry Engineering Internships Dossier
+
+<p><em>Verified Enterprise Software Engineering, Applied Machine Learning &amp; Generative AI Roles</em></p>
 
 ---
 
-### 2. **Artificial Intelligence Engineering Intern** | [CodSoft](https://github.com/sanketchute17-ctrl/CODSOFT)
-*Remote / India • February 2026 – March 2026*  
-*Core Stack: Python 3, Transformers, Computer Vision, Game Theory, Gradio*
+#### 1. 🤖 [CodeAlpha](https://github.com/sanketchute17-ctrl/CODEALPHA) — Machine Learning &amp; Deep Learning Intern
+*Remote / India • February 2026 – March 2026*
+
+- **Credit Risk Predictive Engine**: Trained empirical classification models forecasting customer creditworthiness and CIBIL score ratings (300–900), deploying interactive risk assessment dashboards via Streamlit.
+- **Deep Convolutional Neural Network (CNN)**: Architected an image classification model trained on deep convolutional layers, paired with an OpenCV raster canvas for real-time digit recognition inference.
+- **Core Stack**: `Python 3` • `TensorFlow` • `Scikit-Learn` • `OpenCV` • `Streamlit` • `Flask`
+
+---
+
+#### 2. ⚡ [CodSoft](https://github.com/sanketchute17-ctrl/CODSOFT) — Artificial Intelligence Engineering Intern
+*Remote / India • February 2026 – March 2026*
 
 - **Multimodal Transformer Image Captioning**: Constructed vision-language encoder-decoder pipelines generating descriptive natural language captions for arbitrary image inputs.
 - **Game-Theoretic Adversarial Agent**: Implemented an unbeatable game-state AI utilizing the Minimax algorithm enhanced with Alpha-Beta Pruning decision trees.
 - **Mochi Conversational NLP Agent**: Built an interactive dialog system utilizing contextual NLP processing deployed via Gradio web runtime.
+- **Core Stack**: `Python 3` • `Transformers` • `Computer Vision` • `Minimax AI` • `Alpha-Beta Pruning` • `Gradio`
 
 ---
 
-### 3. **Python Software Engineering Intern** | Brillect Tech Solutions Pvt. Ltd.
-*Nagpur, Maharashtra, India • June 2023 – July 2023*  
-*Core Stack: Python 3, OOP Architecture, File I/O Automation, Data Structures, PEP 8*
+#### 3. 🐍 Brillect Tech Solutions Pvt. Ltd. — Python Software Engineering Intern
+*Nagpur, Maharashtra, India • June 2023 – July 2023*
 
 - **Modular OOP System Architecture**: Engineered extensible Python software modules leveraging Object-Oriented Programming (OOP) paradigms, automated file I/O pipelines, and robust exception handling.
 - **Algorithmic Data Transformation**: Refactored procedural workflows to minimize computational complexity, adhering strictly to enterprise PEP 8 formatting guidelines and SDLC standards.
+- **Core Stack**: `Python 3` • `OOP Architecture` • `File I/O Pipelines` • `Data Structures` • `PEP 8` • `SDLC`
+
+</td>
+</tr>
+</table>
 
 ---
 
